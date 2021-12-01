@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer component Footer Component 1`] = `
+<DocumentFragment>
+  <footer>
+    <div
+      class="sc-bdvvtL sc-gsDKAQ gxSveO"
+      display="flex"
+    >
+      <div
+        class="sc-dkPtRN xjlmj"
+        font-size="sm"
+      >
+        © Home24 2021
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
+
+exports[`Header Component Test cased Header Component render 1`] = `
+<DocumentFragment>
+  <header>
+    <div
+      aria-label="Home24 Logo"
+      class="sc-bdvvtL sc-gsDKAQ etGSuy"
+      display="flex"
+      role="img"
+    >
+      <nav>
+        <a
+          href="/"
+          title="Home"
+        >
+          <img
+            alt="Home24"
+            height="30px"
+            src="/home24_logo.svg"
+          />
+        </a>
+      </nav>
+      <input
+        data-testid="search"
+        placeholder="Search Product"
+        type="text"
+      />
+    </div>
+  </header>
+</DocumentFragment>
+`;

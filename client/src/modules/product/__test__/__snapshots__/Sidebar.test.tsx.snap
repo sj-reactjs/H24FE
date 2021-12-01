@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar Component Component snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-bdvvtL ePzfKO sidebar"
+  >
+    <h3>
+      Kategorien
+    </h3>
+    <ul
+      class="sc-dkPtRN lkGMbd"
+      width="100%"
+    >
+      <li
+        aria-label="Test1"
+        class="sc-gsDKAQ dnEoat"
+      >
+        <a
+          class="sc-hKwDye bLYwem"
+          href="/kategorie/t1/"
+        >
+          Test1
+        </a>
+      </li>
+      <li
+        aria-label="Test2"
+        class="sc-gsDKAQ dnEoat"
+      >
+        <a
+          class="sc-hKwDye bLYwem"
+          href="/kategorie/t2/"
+        >
+          Test2
+        </a>
+      </li>
+      <li
+        aria-label="Test3"
+        class="sc-gsDKAQ dnEoat"
+      >
+        <a
+          class="sc-hKwDye bLYwem"
+          href="/kategorie/t3/"
+        >
+          Test3
+        </a>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;

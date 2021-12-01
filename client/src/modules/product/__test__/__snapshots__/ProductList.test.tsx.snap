@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductCard Component render 1`] = `
+<DocumentFragment>
+  <div
+    class="sc-gsDKAQ fPEZKK"
+    data-name="row"
+    role="main"
+  >
+    <div
+      class="sc-dkPtRN lnoiNo"
+      data-name="col-sm-12 col-md-4 col-xl-3"
+    >
+      <div
+        class="sc-hKwDye hQbgEc sidebar"
+      >
+        <h3>
+          Kategorien
+        </h3>
+        <ul
+          class="sc-furwcr jXbqEV"
+          width="100%"
+        >
+          <li
+            aria-label="Wohnzimmer"
+            class="sc-iCfMLu kBrOrm"
+          >
+            <a
+              class="sc-pVTFL rAhMG"
+              href="/kategorie/wohnzimmermoebel/"
+            >
+              Wohnzimmer
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      class="sc-dkPtRN XybEa"
+      data-name="col-sm-12 col-md-8 col-xl-9"
+    >
+      <div
+        aria-label="All Products"
+        aria-live="polite"
+        class="sc-gsDKAQ fPEZKK"
+        data-name="row"
+        role="list"
+      >
+        <div
+          aria-label="Premium Komfortmatratze Smood"
+          class="sc-dkPtRN jfxTlS"
+          data-name="col-sm-12 col-md-6 col-xl-4"
+          data-testid="product-card"
+          role="listitem"
+        >
+          <div
+            class="sc-hKwDye fQJydH"
+          >
+            <div
+              class="sc-hKwDye inHkDy"
+            >
+              <div
+                aria-label="Premium Komfortmatratze Smood"
+                class="sc-hKwDye gybUDR"
+                height="auto"
+                overflow="hidden"
+                role="img"
+              >
+                <img
+                  alt="Premium Komfortmatratze Smood"
+                  src="https://cdn1.home24.net/images/media/catalog/product/200x200/png/m/a/matratzenbezug-smood-webstoff-180-x-200cm-3477221.webp"
+                  width="100%"
+                />
+              </div>
+              <div
+                class="sc-hKwDye kDTjeg"
+                height="75px"
+              >
+                <div
+                  class="sc-jRQBWg gVuBjj"
+                  data-testid="product-name"
+                  font-family="primary"
+                  font-size="md"
+                  font-weight="bold"
+                >
+                  Premium Komfortmatratze Smood
+                </div>
+              </div>
+              <div
+                class="sc-hKwDye sc-eCImPb krvmpY"
+                display="flex"
+              >
+                <div
+                  class="sc-hKwDye cRzptD"
+                >
+                  <div
+                    class="sc-jRQBWg jfoxGO"
+                    color="primary_600"
+                    data-testid="product-price"
+                  >
+                    569,99 €
+                  </div>
+                </div>
+                <div
+                  class="sc-hKwDye iQUBBt"
+                >
+                  <button
+                    aria-label="Add Premium Komfortmatratze Smood to cart"
+                    aria-pressed="true"
+                    class="sc-gKclnd euMlCU"
+                    data-testid="add-button"
+                    role="button"
+                    tabindex="0"
+                    width="100%"
+                  >
+                    Add to cart
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
