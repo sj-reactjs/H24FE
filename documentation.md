@@ -14,42 +14,42 @@
   ### Folder Structure 
 ```
   📦client
-  |____ 📂src 
-  |____ 📂component > Contains all the styled component 
+  |____ 📂 src 
+  |____ 📂 component > Contains all the styled component 
   |     |__ 📜 Box.tsx
   |     |__ 📜 Button.tsx
   |     |__  ... 
   |     |__ 📜 ThemeProvider.js > Styled Component provider
   |     |__ 📜 GlobalStyles.tsx > Styled component configuration
   |
-  |____ 📂context 
+  |____ 📂 context 
   |     |__ 📜 ProductContext.tsx 
   |
-  |____ 📂hooks 
+  |____ 📂 hooks 
   |     |__ 📜useFetchProducts.tsx > custom hook to fetch data 
   |
-  |____ 📂hoc 
+  |____ 📂 hoc 
   |     |__ 📜withLoader.tsx  
   |
-  |____ 📂layout > Page Layout components
-  |     |__ 📜 Header.tsx 
-  |     |__ 📜 Body.tsx 
-  |     |__ 📜 Footer.tsx 
+  |____ 📂 layout > Page Layout components
+  |     |___ 📜 Header.tsx 
+  |     |___ 📜 Body.tsx 
+  |     |___ 📜 Footer.tsx 
   |
-  |____ 📂modules 
-  |     |__ 📂product  
+  |____ 📂 modules 
+  |     |__ 📂 product  
   |         |__ 📜 Header.tsx 
   |         |__ 📜 Body.tsx 
   |         |__ 📜 Footer.tsx 
   |
-  |____ 📂Pages 
+  |____ 📂 Pages 
   |     |__ 📜 PLP.tsx 
   |
-  |____ 📂utils 
+  |____ 📂 utils 
   |     |__ 📜 formatter.ts 
   |
-  |____ 📜app.tsx 
-  |____ 📜setupTests.ts 
+  |____ 📜 app.tsx 
+  |____ 📜 setupTests.ts 
   
 ```     
 
@@ -57,7 +57,7 @@
 
 ### **Added Styled component**
 
-I have introduced styled component as tyling solution, I have created some granular UI component e.g.
+I have introduced styled component as styling solution, I have created some granular UI component e.g.
   - List
   - Listitem 
   - Box 
@@ -70,24 +70,24 @@ Using them I had build the UI component to avoid additional styling.
 To manage application loading state, I have created one HOC and it will manage loading or application UI state.
 
 ### **context API** - ProductContext
-The purpose of using context API is centralise the data storage in Application and laverage it in different component.
+The purpose of using context API is centralize the data storage in Application and leverage it in different component.
 
 ### **Custom hook** - useFetchProduct
-To saperate the API logic from the component I had created customHook which is responsible to provide response and loading status to application and the response data is connected to context API(**ProductContext**) to serve to application.
+To separate the API logic from the component I had created customHook which is responsible to provide response and loading status to application and the response data is connected to context API(**ProductContext**) to serve to application.
 
 ### **Search Functionality**
 I have enabled the search functionality to filter the product from in list. 
 
 ### **Introduce Accessibility**
-In different part of application I had added a basic required assessibility so will be easy to reacd by DOM and screen reader.
+In different part of application I had added a basic required accessibility so will be easy to read by DOM and screen reader.
 I have used the html semantics tags to define the UI area to batter accessibility and define page structure.
 
 e.g header, main, section, footer
 
 - On tab user can access the all the actionable button/elements.
 - focus tabIndex will be displayed as active.
-- Added HTML5 symentic tags in Header and Footer components.
-- Here is some performance and accessability screenshots (Lighthouse Report)
+- Added HTML5 semantics tags in Header and Footer components.
+- Here is some performance and accessibility screenshots (Lighthouse Report)
 <br/>
 <img src="./tast-documentation-assets/lighthouse-report.PNG" alt="Lighthouse Report" />
 
