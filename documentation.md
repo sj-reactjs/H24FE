@@ -99,7 +99,7 @@ With help **styled component** and **styled bootstrap grid** I tried to create p
 ### **Unit Test cases**
 Added unit test cased using **React-testing-library** and **jest** to validate the functionality and DOM.
 
-<img src="./tast-documentation-assets/unittest-coverage.PNG" alt="Unit Test Coverage Report"/>
+<img src="./tast-documentation-assets/unittest-coverage.png" alt="Unit Test Coverage Report"/>
 
 
 ## **UI screenshots**
